@@ -1,17 +1,24 @@
 {
-  "name": "burgerapp",
-  "version": "0.0.0",
-  "description": "Burger App",
-  "main": "index.js",
+  "name": "node-mysql-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "node",
-    "mySQL",
-    "Express",
-    "Handlebars"
-  ],
   "author": "Anthony Peterson",
-  "license": "MIT"
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.2",
+    "express-handlebars": "^2.0.1",
+    "express-session": "^1.15.1",
+    "method-override": "^2.3.10",
+    "mysql": "^2.15.0"
+  },
+  "devDependencies": {
+    "handlebars-helper-css": "^0.1.0"
+  }
 }
